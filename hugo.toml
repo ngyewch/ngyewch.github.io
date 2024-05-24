@@ -1,0 +1,4 @@
+baseURL = 'https://ngyewch.github.io/'
+languageCode = 'en-us'
+title = "Nick's Bag of Holding"
+theme = 'PaperMod'
