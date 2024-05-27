@@ -90,7 +90,7 @@ weight = 1
   {{< bookmark name="Rclone" 
       githubRepo="rclone/rclone" 
       websiteUrl="https://rclone.org" 
-      image="https://github.com/rclone/rclone/blob/master/graphics/logo/logo_symbol/logo_symbol_color_512px.png?raw=true" 
+      image="https://rclone.org/img/logo_on_light__horizontal_color.svg" 
   >}} 
     Rclone is a command-line program to manage files on cloud storage.
   {{< /bookmark >}}
