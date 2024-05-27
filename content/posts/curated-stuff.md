@@ -102,3 +102,47 @@ weight = 1
   {{< /bookmark >}}
 
 {{< /bookmark-container >}}
+
+## Unsorted
+
+{{< bookmark-container >}}
+
+  {{< bookmark name="Caddy" 
+      githubRepo="caddyserver/caddy" 
+      websiteUrl="https://caddyserver.com/" 
+      image="https://caddyserver.com/resources/images/logo-light.svg" 
+  >}} 
+    Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS.
+  {{< /bookmark >}}
+
+  {{< bookmark name="Colima" 
+      githubRepo="abiosoft/colima" 
+      image="https://github.com/abiosoft/colima/raw/main/colima.png" 
+  >}} 
+    Container runtimes on macOS (and Linux) with minimal setup.
+  {{< /bookmark >}}
+
+  {{< bookmark name="Github Desktop (Linux)" 
+      githubRepo="shiftkey/desktop" 
+      image="https://desktop.github.com/images/desktop-icon.svg" 
+  >}} 
+    Fork of GitHub Desktop to support various Linux distributions.
+  {{< /bookmark >}}
+
+  {{< bookmark name="Lima" 
+      githubRepo="lima-vm/lima" 
+      websiteUrl="https://lima-vm.io/" 
+      image="https://lima-vm.io/images/logo.svg" 
+  >}} 
+    Linux virtual machines, with a focus on running containers.
+  {{< /bookmark >}}
+
+  {{< bookmark name="Podman Desktop" 
+      githubRepo="containers/podman-desktop" 
+      websiteUrl="https://podman-desktop.io/" 
+      image="https://podman-desktop.io/img/logo.svg" 
+  >}} 
+    Podman Desktop is an open source graphical tool enabling you to seamlessly work with containers and Kubernetes from your local environment.
+  {{< /bookmark >}}
+
+{{< /bookmark-container >}}
