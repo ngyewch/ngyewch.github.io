@@ -1,0 +1,39 @@
+<div class="bookmark">
+    {{ $websiteUrl := (.Get "websiteUrl") }}
+    {{ if not (strings.ContainsNonSpace $websiteUrl) }}
+        {{ $websiteUrl = (print "https://github.com/" (.Get "githubRepo")) }}
+    {{ end }}
+
+    <div class="bookmark-content">
+        <a href={{ $websiteUrl }} alt="{{ .Get "name" }}" target="_blank">
+            <b>{{ .Get "name" }}</b>
+        </a>
+    
+        <div class="bookmark-text">
+            {{ .Inner }}
+        </div>
+    
+        <div class="bookmark-links">
+            {{ if strings.ContainsNonSpace (.Get "githubRepo") }}
+                <div class="bookmark-icon">
+                    <a href="https://github.com/{{ .Get "githubRepo" }}" alt="{{ .Get "name" }}" target="_blank">
+                        {{ partial "svg" (dict "name" "github") }}
+                    </a>
+                </div>
+           {{ end }}
+        </div>
+        {{ if strings.ContainsNonSpace (.Get "githubRepo") }}
+            <div class="bookmark-shields">
+                <img alt="GitHub Release" title="GitHub Release" src="https://img.shields.io/github/v/release/{{ .Get "githubRepo" }}">
+                <img alt="GitHub last commit" title="GitHub last commit" src="https://img.shields.io/github/last-commit/{{ .Get "githubRepo" }}">
+                <img alt="GitHub Repo stars" title="GitHub Repo stars" src="https://img.shields.io/github/stars/{{ .Get "githubRepo" }}">
+            </div>
+        {{ end }}
+    </div>
+
+    {{ if strings.ContainsNonSpace (.Get "image") }}
+      <div class="bookmark-image">
+          <img src="{{ .Get "image" }}" alt="{{ .Get "name" }}"/>
+      </div>
+    {{ end }}
+</div>

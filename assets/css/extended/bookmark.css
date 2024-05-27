@@ -1,0 +1,56 @@
+.bookmark {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.bookmark-content {
+    flex-grow: 1;
+}
+
+.bookmark-text {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+.bookmark-shields img {
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.bookmark-icon {
+    display: inline-block;
+    height: 1em;
+}
+
+.bookmark-icon svg {
+    width: 100%;
+    height: 100%;
+}
+
+.bookmark-icon a:link { 
+    text-decoration: none; 
+} 
+
+.bookmark-icon a:visited { 
+    text-decoration: none; 
+} 
+
+.bookmark-icon a:hover { 
+    text-decoration: none; 
+} 
+
+.bookmark-icon a:active { 
+    text-decoration: none; 
+}
+
+.bookmark-image {
+    max-width: 128px;
+}
+
+.bookmark-image img {
+    margin: 0;
+}

@@ -1,5 +1,6 @@
 +++
 title = 'Curated Stuff'
+summary = "Stuff I'm using or thinking of using."
 date = 2024-05-24T14:54:35+08:00
 weight = 1
 +++
@@ -10,42 +11,72 @@ weight = 1
 
 #### Libraries
 
-* [Calendar.js](https://calendar-js.com/) 
-[![npm](https://img.shields.io/badge/npmjs-v2.10.15-blue)](https://www.npmjs.com/package/jcalendar.js) 
-![GitHub last commit](https://img.shields.io/github/last-commit/williamtroup/Calendar.js) 
-![GitHub Repo stars](https://img.shields.io/github/stars/williamtroup/Calendar.js)
-  * A javascript drag & drop event calendar, that is fully responsive and compatible with all modern browsers.
+{{< bookmark-container >}}
+
+  {{< bookmark name="Calendar.js" 
+      githubRepo="williamtroup/Calendar.js" 
+      websiteUrl="https://calendar-js.com/" 
+      image="https://calendar-js.com/images/text.png?v=1.11" 
+  >}} 
+    A javascript drag & drop event calendar, that is fully responsive and compatible with all modern browsers.
+  {{< /bookmark >}}
+
+{{< /bookmark-container >}}
 
 ### Tools
 
-* [Devbox](https://www.jetify.com/devbox)
-![GitHub Release](https://img.shields.io/github/v/release/jetify-com/devbox)
-![GitHub last commit](https://img.shields.io/github/last-commit/jetify-com/devbox)
-![GitHub Repo stars](https://img.shields.io/github/stars/jetify-com/devbox)
-  * Portable, isolated dev environments on any machine.
-* [Earthly](https://earthly.dev/)
-![GitHub Release](https://img.shields.io/github/v/release/earthly/earthly)
-![GitHub last commit](https://img.shields.io/github/last-commit/earthly/earthly)
-![GitHub Repo stars](https://img.shields.io/github/stars/earthly/earthly)
-  * Fast, consistent builds with an instantly familiar syntax – like Dockerfile and Makefile had a baby.
-* [mise](https://mise.jdx.dev/)
-![GitHub Release](https://img.shields.io/github/v/release/jdx/mise)
-![GitHub last commit](https://img.shields.io/github/last-commit/jdx/mise)
-![GitHub Repo stars](https://img.shields.io/github/stars/jdx/mise)
-  * The front-end to your dev env.
+{{< bookmark-container >}}
+
+  {{< bookmark name="Devbox" 
+      githubRepo="jetify-com/devbox" 
+      websiteUrl="https://www.jetify.com/devbox" 
+      image="https://www.jetify.com/devbox/docs/img/devbox_logo_light.svg" 
+  >}} 
+    Portable, isolated dev environments on any machine.
+  {{< /bookmark >}}
+
+  {{< bookmark name="Earthly" 
+      githubRepo="earthly/earthly" 
+      websiteUrl="https://earthly.dev/" 
+      image="https://earthly.dev/assets/img/favicon.png" 
+  >}} 
+    Fast, consistent builds with an instantly familiar syntax – like Dockerfile and Makefile had a baby.
+  {{< /bookmark >}}
+
+  {{< bookmark name="mise" 
+      githubRepo="jdx/mise" 
+      websiteUrl="https://mise.jdx.dev/" 
+      image="https://github.com/jdx/mise/assets/216188/27a8ea18-9383-4d86-a445-305b9a6248c1" 
+  >}} 
+    The front-end to your dev env.
+  {{< /bookmark >}}
+
+{{< /bookmark-container >}}
 
 ## Distributed Systems
 
-* [NATS](https://nats.io/)
-![GitHub Release](https://img.shields.io/github/v/release/nats-io/nats-server)
-![GitHub last commit](https://img.shields.io/github/last-commit/nats-io/nats-server)
-![GitHub Repo stars](https://img.shields.io/github/stars/nats-io/nats-server)
-  * Connective technology for adaptive edge & distributed systems.
+{{< bookmark-container >}}
+
+  {{< bookmark name="NATS" 
+      githubRepo="nats-io/nats-server" 
+      websiteUrl="https://nats.io/" 
+      image="https://nats.io/img/logos/nats-horizontal-color.png" 
+  >}} 
+    Connective technology for adaptive edge & distributed systems.
+  {{< /bookmark >}}
+
+{{< /bookmark-container >}}
 
 ## Utilities
 
-* [croc](https://github.com/schollz/croc)
-![GitHub Release](https://img.shields.io/github/v/release/schollz/croc)
-![GitHub last commit](https://img.shields.io/github/last-commit/schollz/croc)
-![GitHub Repo stars](https://img.shields.io/github/stars/schollz/croc)
-  * Easily and securely send things from one computer to another.
+{{< bookmark-container >}}
+
+  {{< bookmark name="croc" 
+      githubRepo="schollz/croc" 
+      websiteUrl="https://schollz.com/software/croc6" 
+      image="https://infinitedigits.co/img/projects/croc.jpg" 
+  >}} 
+    Easily and securely send things from one computer to another.
+  {{< /bookmark >}}
+
+{{< /bookmark-container >}}
