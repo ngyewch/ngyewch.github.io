@@ -71,12 +71,34 @@ weight = 1
 
 {{< bookmark-container >}}
 
+  {{< bookmark name="chezmoi" 
+      githubRepo="twpayne/chezmoi" 
+      websiteUrl="https://chezmoi.io" 
+      image="https://github.com/twpayne/chezmoi/raw/master/assets/images/logo-144px.svg" 
+  >}} 
+    Manage your dotfiles across multiple diverse machines, securely.
+  {{< /bookmark >}}
+
   {{< bookmark name="croc" 
       githubRepo="schollz/croc" 
       websiteUrl="https://schollz.com/software/croc6" 
       image="https://infinitedigits.co/img/projects/croc.jpg" 
   >}} 
     Easily and securely send things from one computer to another.
+  {{< /bookmark >}}
+
+  {{< bookmark name="Rclone" 
+      githubRepo="rclone/rclone" 
+      websiteUrl="https://rclone.org" 
+      image="https://github.com/rclone/rclone/blob/master/graphics/logo/logo_symbol/logo_symbol_color_512px.png?raw=true" 
+  >}} 
+    Rclone is a command-line program to manage files on cloud storage.
+  {{< /bookmark >}}
+
+  {{< bookmark name="ripgrep" 
+      githubRepo="BurntSushi/ripgrep" 
+  >}} 
+    ripgrep recursively searches directories for a regex pattern while respecting your gitignore.
   {{< /bookmark >}}
 
 {{< /bookmark-container >}}
