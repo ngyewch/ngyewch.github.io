@@ -3,6 +3,7 @@ title = 'Curated Stuff'
 summary = "Stuff I'm using or thinking of using."
 date = 2024-05-24T14:54:35+08:00
 weight = 1
+ShowToc = true
 +++
 
 ## Development
