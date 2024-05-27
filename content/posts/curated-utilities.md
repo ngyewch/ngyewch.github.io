@@ -2,7 +2,7 @@
 title = 'Curated Utilities'
 summary = "Stuff I'm using or thinking of using."
 date = 2024-05-27T14:25:00+08:00
-weight = 2
+weight = 1
 ShowToc = true
 +++
 
