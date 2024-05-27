@@ -48,9 +48,13 @@
 }
 
 .bookmark-image {
+    width: 128px;
     max-width: 128px;
+    flex-grow: 0;
+    flex-shrink: 0;
 }
 
 .bookmark-image img {
     margin: 0;
+    float: right;
 }
