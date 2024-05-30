@@ -18,12 +18,10 @@ ShowToc = true
     Cal-Heatmap is a javascript charting library to create a time-series calendar heatmap.
   {{< /bookmark >}}
 
-  {{< bookmark name="Calendar.js" 
-      githubRepo="williamtroup/Calendar.js" 
-      websiteUrl="https://calendar-js.com/" 
-      image="https://calendar-js.com/images/text.png?v=1.11" 
+  {{< bookmark name="Event Calendar" 
+      githubRepo="vkurko/calendar" 
   >}} 
-    A javascript drag & drop event calendar, that is fully responsive and compatible with all modern browsers.
+    Full-sized drag & drop JavaScript event calendar with resource & timeline views.
   {{< /bookmark >}}
 
   {{< bookmark name="Micromodal.js" 
