@@ -18,4 +18,12 @@ ShowToc = true
     A javascript drag & drop event calendar, that is fully responsive and compatible with all modern browsers.
   {{< /bookmark >}}
 
+  {{< bookmark name="Micromodal.js" 
+      githubRepo="ghosh/micromodal" 
+      websiteUrl="https://micromodal.now.sh/" 
+      image="https://camo.githubusercontent.com/bc5cf094e7098570a1b4f085987ff176aff2a3371f47938d11c6e2fbbb916250/68747470733a2f2f7777772e64726f70626f782e636f6d2f732f7462616f6f796934796838706269372f6c6f676f2e706e673f7261773d31" 
+  >}} 
+    Micromodal.js is a lightweight, configurable and a11y-enabled modal library written in pure JavaScript.
+  {{< /bookmark >}}
+
 {{< /bookmark-container >}}

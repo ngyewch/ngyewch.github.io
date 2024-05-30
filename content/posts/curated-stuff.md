@@ -34,6 +34,14 @@ ShowToc = true
     Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS.
   {{< /bookmark >}}
 
+  {{< bookmark name="LocalSend" 
+      githubRepo="localsend/localsend" 
+      websiteUrl="https://localsend.org/" 
+      image="https://avatars.githubusercontent.com/u/120677616?s=128&v=4" 
+  >}} 
+    Share files to nearby devices.
+  {{< /bookmark >}}
+
   {{< bookmark name="OAuth2 Proxy" 
       githubRepo="oauth2-proxy/oauth2-proxy" 
       websiteUrl="https://oauth2-proxy.github.io/oauth2-proxy/" 
@@ -48,6 +56,14 @@ ShowToc = true
       image="https://prometheus.io/assets/favicons/android-chrome-192x192.png" 
   >}} 
     Prometheus is a monitoring system and time series database.
+  {{< /bookmark >}}
+
+  {{< bookmark name="RSocket" 
+      githubRepo="rsocket/rsocket" 
+      websiteUrl="https://rsocket.io/" 
+      image="https://rsocket.io/img/r-socket-pink.svg" 
+  >}} 
+    Application protocol providing Reactive Streams semantics.
   {{< /bookmark >}}
 
   {{< bookmark name="Twirp" 
