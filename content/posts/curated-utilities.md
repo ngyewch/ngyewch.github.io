@@ -83,6 +83,14 @@ ShowToc = true
     Easily and securely send things from one computer to another.
   {{< /bookmark >}}
 
+  {{< bookmark name="LocalSend" 
+      githubRepo="localsend/localsend" 
+      websiteUrl="https://localsend.org/" 
+      image="https://avatars.githubusercontent.com/u/120677616?s=128&v=4" 
+  >}} 
+    Share files to nearby devices.
+  {{< /bookmark >}}
+
   {{< bookmark name="Rclone" 
       githubRepo="rclone/rclone" 
       websiteUrl="https://rclone.org" 

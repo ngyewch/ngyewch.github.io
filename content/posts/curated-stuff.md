@@ -22,6 +22,24 @@ ShowToc = true
 
 {{< /bookmark-container >}}
 
+## Protocols
+
+  {{< bookmark name="RSocket" 
+      githubRepo="rsocket/rsocket" 
+      websiteUrl="https://rsocket.io/" 
+      image="https://rsocket.io/img/r-socket-pink.svg" 
+  >}} 
+    Application protocol providing Reactive Streams semantics.
+  {{< /bookmark >}}
+
+  {{< bookmark name="Twirp" 
+      githubRepo="twitchtv/twirp" 
+      websiteUrl="https://twitchtv.github.io/twirp/docs/intro.html" 
+      image="https://github.com/twitchtv/twirp/raw/main/logo.png" 
+  >}} 
+    A simple RPC framework with protobuf service definitions.
+  {{< /bookmark >}}
+
 ## Unsorted
 
 {{< bookmark-container >}}
@@ -32,14 +50,6 @@ ShowToc = true
       image="https://caddyserver.com/resources/images/logo-light.svg" 
   >}} 
     Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS.
-  {{< /bookmark >}}
-
-  {{< bookmark name="LocalSend" 
-      githubRepo="localsend/localsend" 
-      websiteUrl="https://localsend.org/" 
-      image="https://avatars.githubusercontent.com/u/120677616?s=128&v=4" 
-  >}} 
-    Share files to nearby devices.
   {{< /bookmark >}}
 
   {{< bookmark name="OAuth2 Proxy" 
@@ -56,22 +66,6 @@ ShowToc = true
       image="https://prometheus.io/assets/favicons/android-chrome-192x192.png" 
   >}} 
     Prometheus is a monitoring system and time series database.
-  {{< /bookmark >}}
-
-  {{< bookmark name="RSocket" 
-      githubRepo="rsocket/rsocket" 
-      websiteUrl="https://rsocket.io/" 
-      image="https://rsocket.io/img/r-socket-pink.svg" 
-  >}} 
-    Application protocol providing Reactive Streams semantics.
-  {{< /bookmark >}}
-
-  {{< bookmark name="Twirp" 
-      githubRepo="twitchtv/twirp" 
-      websiteUrl="https://twitchtv.github.io/twirp/docs/intro.html" 
-      image="https://github.com/twitchtv/twirp/raw/main/logo.png" 
-  >}} 
-    A simple RPC framework with protobuf service definitions.
   {{< /bookmark >}}
 
 {{< /bookmark-container >}}
