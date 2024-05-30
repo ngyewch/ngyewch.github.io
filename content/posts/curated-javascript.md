@@ -10,6 +10,14 @@ ShowToc = true
 
 {{< bookmark-container >}}
 
+  {{< bookmark name="cal-heatmap" 
+      githubRepo="wa0x6e/cal-heatmap" 
+      websiteUrl="http://cal-heatmap.com/" 
+      image="https://cal-heatmap.com/img/favicon.png" 
+  >}} 
+    Cal-Heatmap is a javascript charting library to create a time-series calendar heatmap.
+  {{< /bookmark >}}
+
   {{< bookmark name="Calendar.js" 
       githubRepo="williamtroup/Calendar.js" 
       websiteUrl="https://calendar-js.com/" 
