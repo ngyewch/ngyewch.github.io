@@ -52,6 +52,14 @@ ShowToc = true
     Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS.
   {{< /bookmark >}}
 
+  {{< bookmark name="Nerd Fonts" 
+      githubRepo="ryanoasis/nerd-fonts" 
+      websiteUrl="https://www.nerdfonts.com/" 
+      image="https://www.nerdfonts.com/assets/img/nerd-fonts-logo.svg" 
+  >}} 
+    Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph collections: Font Awesome, Material Design Icons, Octicons, & more.
+  {{< /bookmark >}}
+
   {{< bookmark name="OAuth2 Proxy" 
       githubRepo="oauth2-proxy/oauth2-proxy" 
       websiteUrl="https://oauth2-proxy.github.io/oauth2-proxy/" 
