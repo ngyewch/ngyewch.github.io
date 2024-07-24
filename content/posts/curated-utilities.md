@@ -105,6 +105,14 @@ ShowToc = true
     ripgrep recursively searches directories for a regex pattern while respecting your gitignore.
   {{< /bookmark >}}
 
+  {{< bookmark name="Starship" 
+      githubRepo="starship/starship" 
+      websiteUrl="https://starship.rs"
+      image="https://starship.rs/icon.png"
+  >}} 
+    The minimal, blazing-fast, and infinitely customizable prompt for any shell!
+  {{< /bookmark >}}
+
 {{< /bookmark-container >}}
 
 ## Virtualization
